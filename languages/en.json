@@ -5,7 +5,7 @@
 	"docs.ask_restart": "Restart the program on this box? The picture goes for a moment, recording and playback stop, and this page answers nothing until it is back.",
 	"docs.ask_shutdown": "Switch this box off? The picture goes, and it answers nothing here until somebody turns it on again where it stands.",
 	"docs.ask_standby": "Put this box into standby? The picture goes off the screen.",
-	"docs.no_package": "The API reference needs the optional package swagger-ui, which this image does not carry. The description itself is at /api/openapi.json.",
+	"docs.no_package": "The API reference needs the optional package swagger-ui-dist, which this image does not carry. The description itself is at /api/openapi.json.",
 	"docs.not_sent": "Not sent: this page asked first and the answer was no.",
 	"docs.send": "Send",
 	"docs.signed_in": "signed in",

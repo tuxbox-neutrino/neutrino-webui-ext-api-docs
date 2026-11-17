@@ -449,7 +449,7 @@ function bodyOf(response) {
 
 var SAFE_METHODS = { GET: true, HEAD: true, OPTIONS: true, TRACE: true };
 
-/* The viewer comes with the optional package swagger-ui (/swagger/vendor/),
+/* The viewer comes with the optional package swagger-ui-dist (/swagger/vendor/),
    which an image carries only where its flash has room for it. Without it
    the page says so instead of failing where nobody sees it. */
 if (typeof SwaggerUIBundle === "function") window.ui = SwaggerUIBundle({
@@ -547,7 +547,7 @@ function sayPackageMissing() {
   note.style.cssText = "font: 15px/1.5 system-ui, sans-serif; padding: 20px;";
   // marked, so the texts set it in the page's language once they are in
   note.setAttribute("data-l", "docs.no_package");
-  note.textContent = "The API reference needs the optional package swagger-ui, which " +
+  note.textContent = "The API reference needs the optional package swagger-ui-dist, which " +
     "this image does not carry. The description itself is at /api/openapi.json.";
   document.getElementById("swagger-ui").appendChild(note);
 }

@@ -8,7 +8,7 @@ the box.
 ## What it needs
 
 The viewer itself is not part of the extension. It comes with the
-optional package `swagger-ui`, which puts its files under
+optional package `swagger-ui-dist`, which puts its files under
 `/swagger/vendor/` of the web folder; an image carries it only where its
 flash has room. Without the package the page says so and shows nothing
 else. The description it reads is the box's own and always matches the

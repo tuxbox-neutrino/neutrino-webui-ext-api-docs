@@ -5,7 +5,7 @@
 	"docs.ask_restart": "Das Programm der Box neu starten? Das Bild geht kurz weg, Aufnahme und Wiedergabe enden, und diese Seite antwortet nicht, bis es wieder da ist.",
 	"docs.ask_shutdown": "Die Box ausschalten? Das Bild geht weg, und sie antwortet hier nicht mehr, bis jemand sie vor Ort wieder einschaltet.",
 	"docs.ask_standby": "Die Box in den Standby schicken? Das Bild verschwindet vom Bildschirm.",
-	"docs.no_package": "Die API-Referenz braucht das optionale Paket swagger-ui, das dieses Image nicht mitbringt. Die Beschreibung selbst steht unter /api/openapi.json.",
+	"docs.no_package": "Die API-Referenz braucht das optionale Paket swagger-ui-dist, das dieses Image nicht mitbringt. Die Beschreibung selbst steht unter /api/openapi.json.",
 	"docs.not_sent": "Nicht gesendet: Diese Seite hat vorher gefragt, und die Antwort war nein.",
 	"docs.send": "Senden",
 	"docs.signed_in": "angemeldet",
